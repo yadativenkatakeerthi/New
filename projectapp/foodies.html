@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodies - APPNEST</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background:#fffaf3; 
+      padding:20px; 
+      text-align: center;
+    }
+    h1 { color:#7a1c61; margin-bottom: 30px; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .app {
+      text-align: center;
+    }
+
+    .app img {
+      width: 80px;
+      height: 80px;
+      border-radius: 20%;
+      transition: transform 0.3s;
+    }
+
+    .app img:hover {
+      transform: scale(1.1);
+    }
+
+    .app p {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #a62d85;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .back {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 10px 15px;
+      background: #7a1c61;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .back:hover {
+      background: #a62d85;
+    }
+    .center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>🍕 Foodies - Order Your Favorites</h1>
+
+  <div class="grid">
+    <div class="app">
+      <a href="https://www.swiggy.com/" target="_blank">
+        <img src="https://www.bing.com/th/id/OIP.ctwAsGFfuJVwL-0LDb7r4wHaFj?w=226&h=211&c=8&rs=1&qlt=70&o=7&cb=thws5&dpr=1.5&pid=3.1&rm=3" alt="Swiggy">
+        <p>Swiggy</p>
+      </a>
+    </div>
+
+    <div class="app">
+      <a href="https://www.zomato.com/" target="_blank">
+        <img src="https://seeklogo.com/images/Z/zomato-logo-200607EC4C-seeklogo.com.png" alt="Zomato">
+        <p>Zomato</p>
+      </a>
+    </div>
+
+    <div class="app">
+      <a href="https://www.dominos.co.in/" target="_blank">
+        <img src="https://www.bing.com/th/id/OIP.N13CtRBa-p6Y0sS1SEUUPQHaHa?w=195&h=211&c=8&rs=1&qlt=70&o=7&cb=thws5&dpr=1.5&pid=3.1&rm=3" alt="Dominos">
+        <p>Domino's</p>
+      </a>
+    </div>
+
+    <div class="app">
+      <a href="https://www.kfc.co.in/" target="_blank">
+        <img src="https://logos-world.net/wp-content/uploads/2020/04/KFC-Logo.png" alt="KFC">
+        <p>KFC</p>
+      </a>
+    </div>
+    
+  </div>
+<div class = "center">
+  <p><a href="newinterface.html" class="back">⬅ Back to Home</a></p></div>
+</body>
+</html>

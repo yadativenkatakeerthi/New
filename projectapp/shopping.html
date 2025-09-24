@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shopping - APPNEST</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9fff8;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #7a1c61;
+      font-size: 26px;
+    }
+    .icon-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 25px;
+    }
+    .icon-title img { width: 30px; height: 30px; }
+    .app-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+    .app { width: 90px; }
+    .app img {
+      width: 90px;
+      height: 90px;
+      border-radius: 15px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+    .app-name {
+      margin-top: 8px;
+      color: #8a126e;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .back {
+      display: inline-block;
+      padding: 10px 18px;
+      background: #7a1c61;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back:hover { background: #a62d85; }
+  </style>
+</head>
+<body>
+
+  <div class="icon-title">
+    <img src="https://img.icons8.com/color/48/shopping-cart-loaded.png" alt="Shopping Icon">
+    <h1>🛒 Shopping</h1>
+  </div>
+
+  <div class="app-links">
+    <div class="app">
+      <a href="https://www.amazon.in/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+        <div class="app-name">Amazon</div>
+      </a>
+    </div>
+
+    <div class="app">
+      <a href="https://www.flipkart.com/" target="_blank">
+        <img src="https://seeklogo.com/images/F/flipkart-logo-3F33927DAA-seeklogo.com.png" alt="Flipkart">
+        <div class="app-name">Flipkart</div>
+      </a>
+    </div>
+
+    <div class="app">
+      <a href="https://www.myntra.com/" target="_blank">
+        <img src="https://seeklogo.com/images/M/myntra-logo-B3C45EAD5C-seeklogo.com.png" alt="Myntra">
+        <div class="app-name">Myntra</div>
+      </a>
+    </div>
+
+    <div class="app">
+      <a href="https://www.ajio.com/" target="_blank">
+        <img src="https://th.bing.com/th/id/OIP.bWK3EDEkx10CRAKyDMYrfQAAAA?w=130&h=150&c=6&o=7&dpr=1.5&pid=1.7&rm=3" alt="Ajio">
+        <div class="app-name">Ajio</div>
+      </a>
+    </div>
+
+    <div class="app">
+      <a href="https://www.shopsy.in/" target="_blank">
+        <img src="data:image/webp;base64,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" alt="Shopsy">
+        <div class="app-nameTaj Mahal ">Shopsy</div>
+      </a>
+    </div>
+
+    <div class="app">
+  <a href="https://www.alibaba.com/" target="_blank">
+    <img src="https://th.bing.com/th/id/OIP.hKpjDDtj6iDChbwF0VG_YAHaHW?w=128&h=150&c=6&o=7&dpr=1.5&pid=1.7&rm=3" alt="Alibaba">
+    <div class="app-name">Alibaba</div>
+  </a>
+</div>
+
+  </div>
+
+  <a href="newinterface.html" class="back">⬅ Back</a>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enlightenment - APPNEST</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background:#fdf8ff; 
+      padding:20px; 
+      text-align: center;
+    }
+    h1 { color:#7a1c61; margin-bottom: 30px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .app {
+      text-align: center;
+    }
+
+    .app img {
+      width: 80px;
+      height: 80px;
+      border-radius: 20%;
+      transition: transform 0.3s;
+    }
+
+    .app img:hover {
+      transform: scale(1.1);
+    }
+
+    .app p {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #a62d85;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .back {
+      margin-top: 30px;
+      display: inline-block;
+      padding: 10px 15px;
+      background: #7a1c61;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .back:hover {
+      background: #a62d85;
+    }
+    .center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 Coding Labs</h1>
+
+  <div class="grid">
+
+        <div class="app">
+      <a href="https://www.hackerrank.com/" target="_blank">
+      <img src="https://th.bing.com/th/id/OIP.2xHj-lB-TPIECy9yvyA1DAHaHa?w=174&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="HackerRank">
+        <p>HackerRank</p>
+      </a>
+    </div>
+
+    <div class="app">
+      <a href="https://leetcode.com" target="_blank">
+        <img src="https://th.bing.com/th/id/OIP.nb3p8ceUAEEnmFVu0jZQ3AHaEK?w=263&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Leetcode">
+        <p>LeetCode</p>
+      </a>
+    </div>
+
+    <div class="app">
+      <a href="https://www.geeksforgeeks.org" target="_blank">
+        <img src="https://th.bing.com/th/id/OIP.8v6j0MJlk2ZYnq0P_ifarAHaHa?w=146&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="GeeksforGeeks">
+        <p>GeeksforGeeks</p>
+      </a>
+    </div>
+
+    <div class="app">
+      <a href="https://www.topcoder.com" target="_blank">
+        <img src="https://th.bing.com/th/id/OIP.w6AoAa9Rf2mcKTE1cUe4-wAAAA?w=189&h=96&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Topcoder">
+        <p>Topcoder</p>
+      </a>
+    </div>
+
+    <div class="app">
+      <a href="https://www.codechef.com/" target="_blank">
+        <img src="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.png" alt="CodeChef">
+        <p>CodeChef</p>
+      </a>
+    </div>
+
+
+  </div>
+
+  <div class ="center"><a href="newinterface.html" class="back">⬅ Back to Home</a></div>
+</body>
+</html>
